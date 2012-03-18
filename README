@@ -1,0 +1,10 @@
+This is the card game danger village designed in python using python-tk and asynchronous sockets to implement the game.
+
+To start the app run DangerVillageClient.py
+
+Rules:
+
+'Rules'
+The point of the game is to play your cards before the other players\nThis game is a four player card game using a 54 card deck of cards (includes jokers). The game starts by shuffling the deck of cards and dealing 4 cards facedown to each player. Then 4 more cards are dealt face up so all players can see them. Then another 4 cards are dealt facedown to each player. The other cards are put aside.\nThen each player picks up the second set of facedown cards and the face up cards and chooses 4 to put face up in front of him and 4 to keep in his hand.\nThen play begins. The first player to play is decided and they play a card from their hand onto the stack. Play continues to the left. Players draw from the remaining deck of cards after they play so they have four cards until the remaining cards are gone. When a player empties his hand, he picks up his 4 face up cards. When his hand is emptied again, he plays one of his face down cards randomly. When he has played all of his face down cards and emptied his hand, that player has won.
+'Rules for Play'
+A player can choose to pick up the current cards in play or play a card or combination of cards in their hand higher than the last card played. Cards are ordered from 2 to aces with aces being the highest card. Pairs of cards can be played and are worth more than all single cards and ordered from 2 to ace. Three of a kinds can also be played and similarly are worth more than all pairs and single cards. Four of a kinds will clear the pile; it will be set aside and ignored for the rest of the game.\nThere are several special cards in the game. 10s will clear the pile similar to four of a kinds. 3s are wild and can be considered any card for pairing with other cards. Jokers cause the next player to pick up the cards and skips their turn.
